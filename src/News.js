@@ -24,7 +24,7 @@ export class News extends Component {
     return (
       <div className="container mx-auto">
         <h2 className="font-medium leading-tight text-5xl mt-0 mb-2 text-slate-700 text-center">
-          Top Headlines
+          Top Headlines1
         </h2>
         <div className="grid grid-rows-3 grid-flow-col gap-4 mt-4 px-10">
           {this.state.articals?.map((element) => {
